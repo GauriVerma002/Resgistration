@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="image/lotus.jpg">
+  <style>
+  .dd1
+    {
+        text-align: center;   
+        color: blueviolet;
+        font-size: 45px;
+    
+    }
+    
+    .dd2
+    {
+        text-align: center;   
+        color: rgb(162, 53, 177);
+        font-size: 20px; 
+    }
+    
+    .dd3
+    {
+        text-align: center;   
+        color: rgb(85, 31, 134);
+        font-size: 17px; 
+    }
+    
+    .dd4
+    {
+        text-align: center;   
+        color: rgb(85, 31, 134);
+        font-size: 17px; 
+    }
+    
+    .dd5
+    {
+        text-align: center;   
+        color: rgb(85, 31, 134);
+        font-size: 17px; 
+    }
+    
+    body {
+      background-color: rgb(217, 202, 233)
+    }
+  </style>
+  <title>Registration</title>
+</head>
+
+<body>
+
+  <div class="dd1"><a href="/education5.html" target="_main"> REGISTRATION FORM </a> <br><br>
+    <div class="dd2">
+
+      <form action="/action.php">
+
+        <fieldset>
+          <legend>Nessesary Information</legend>
+          <div class="dd3">
+            <label for="app">Application no.</label>
+            <input id="app" type="text" placeholder="application number">
+            <br />
+            <label for="proof">Identity Proof</label>
+            <input id="proof" type="Identity proof" placeholder=" adhar no.,pancard no.">
+            <br />
+          </div>
+        </fieldset>
+        <br />
+
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div class="dd4">
+            <label for="name">Full Name </label>
+            <input id="name" type="text"><br>
+            <label for="father">Father's name </label>
+            <input id="father" type="text"><br>
+            <label for="mother">Mother's name </label>
+            <input id="mother" type="text"><br>
+            <label for="dob">Date of birth</label>
+            <input id="dob" type="date" value="YYYY-MM-DD" min="1990-01-01" max="2004-12-31"><br>
+            <label for="add">Full Address</label>
+            <input id="add" type="text" placeholder="house no.,city,state" name="address"> </br>
+            <label for="mail">Mail id</label>
+            <input id="mail" type="text" placeholder="mail id."><br>
+            <label for="mobile">Mobile no.</label>
+            <input id="mobile" type="text" placeholder="mobile no." name="Mobile no."> </br><br />
+            Picture <input type="file">
+          </div>
+        </fieldset>
+        <br />
+
+
+        <fieldset>
+          <legend>Other Information</legend>
+
+          <div class="dd5">
+            <input type="radio" value="Male" name="Drop">Male &nbsp;
+            <input type="radio" value="Female" name="Drop">Female
+            <br />
+
+            <br>
+
+            <input type="radio" value="OBC" name="subject"> OBC&nbsp;
+            <input type="radio" value="Gen" name="subject"> Gen&nbsp;
+            <input type="radio" value="Sc/St" name="subject">Sc/St&nbsp;
+            <input type="radio" value="other" name="subject">Other
+
+
+            <br />
+            <br />
+            State
+            <select name="city">
+              <option value="Delhi">Delhi</option>
+              <option value="Bhopal">Bhopal</option>
+              <option value="Agra">Etawah</option>
+              <option value="Indore">Indore</option>
+            </select>
+
+            <br />
+        </fieldset>
+      </form>
+
+      <form>
+
+        <br />
+        Reset
+        <input type="reset" value="reset">&nbsp; &nbsp; &nbsp;
+
+        Submit
+        <input type="submit" value="submit">
+    </div>
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>
